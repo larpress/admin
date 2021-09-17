@@ -1,0 +1,15 @@
+{
+    "name": "larpress/admin",
+    "description": "admin management plane",
+    "type": "library",
+    "require-dev": {
+        "orchestra/canvas": "^6.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Larpress\\Admin\\": "src/"
+        }
+    },
+    "require": {}
+}
