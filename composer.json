@@ -1,15 +1,24 @@
 {
-    "name": "larpress/admin",
-    "description": "admin management plane",
-    "type": "library",
-    "require-dev": {
-        "orchestra/canvas": "^6.5"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Larpress\\Admin\\": "src/"
-        }
-    },
-    "require": {}
+  "name": "larpress/admin",
+  "description": "admin management plane",
+  "type": "library",
+  "require-dev": {
+    "orchestra/canvas": "^6.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Larpress\\Admin\\": "src/"
+    }
+  },
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Larpress\\Admin\\Providers\\AdminServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
 }

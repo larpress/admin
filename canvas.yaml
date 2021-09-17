@@ -1,0 +1,27 @@
+preset: package
+
+namespace: Larpress\Admin
+user-auth-provider: App\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: Larpress\Admin\Console
+
+model:
+  namespace: Larpress\Admin
+
+provider:
+  namespace: Larpress\Admin\Providers
+
+testing:
+  namespace: Larpress\Admin\Tests
