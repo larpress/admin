@@ -11,7 +11,9 @@
       "Larpress\\Admin\\": "src/"
     }
   },
-  "require": {},
+  "require": {
+    "laravel/framework": "^8.61"
+  },
   "extra": {
     "laravel": {
       "providers": [

@@ -18,7 +18,7 @@ console:
   namespace: Larpress\Admin\Console
 
 model:
-  namespace: Larpress\Admin
+  namespace: Larpress\Admin\Model
 
 provider:
   namespace: Larpress\Admin\Providers
